@@ -60,7 +60,7 @@ const CartPanel = ({ cart, removeFromCart, openModal }) => {
             <span>Order Total</span>
             <span className="font-bold text-[25px]">${total.toFixed(2)}</span>
           </div>
-          <div className="bg-rose-50 flex items-center justify-center space-x-2.5 w-full h-[2.5rem] py-2 px-2 lg:ml-[35px] ml-[-5px] mt-5 rounded-[5px]">
+          <div className="bg-rose-50 flex items-center justify-center space-x-2.5 w-full h-[2.5rem] py-2 px-2 mt-5 rounded-[5px]">
             <img src={CarbonNeutral} />
             <p className=" text-sm text-[#504d4d] text-center">
               This is a <span className="font-bold"> carbon-neutral </span>
